@@ -11,11 +11,11 @@ function AboutSection() {
 
   return (
     <>
-      <ContainedSection id='about' sectionClassName='bg-slate-500 text-white py-32 relative'>
+      <ContainedSection id='about' sectionClassName='bg-primary/70 text-white py-32 relative'>
         <SectionHeading>
           <SectionHeading.Title className='text-secondary-background'>{t('about.title')}</SectionHeading.Title>
-          <SectionHeading.Description>{t('about.paragraph1')}</SectionHeading.Description>
-          <SectionHeading.Description>{t('about.paragraph2')}</SectionHeading.Description>
+          <SectionHeading.Description className='text-secondary-background'>{t('about.paragraph1')}</SectionHeading.Description>
+          <SectionHeading.Description className='text-secondary-background'>{t('about.paragraph2')}</SectionHeading.Description>
         </SectionHeading>
         {/* Create the slanted edge */}
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-white transform -skew-y-2 origin-bottom-right"></div>
@@ -33,7 +33,7 @@ function AboutSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <span>info@bauhar.si</span>
+                <span>{process.env.NEXT_PUBLIC_EMAIL}</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 flex items-center justify-center">
@@ -42,7 +42,7 @@ function AboutSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
-                <span>Bauhar d.o.o.<br />Seliška cesta 6b<br />4260 Bled<br />SI 20511230</span>
+                <span>{process.env.NEXT_PUBLIC_COMPANY_NAME}<br />{process.env.NEXT_PUBLIC_STREET}<br />{process.env.NEXT_PUBLIC_ZIP} {process.env.NEXT_PUBLIC_CITY}<br />{process.env.NEXT_PUBLIC_COUNTRY}</span>
               </div>
             </div>
           </div>

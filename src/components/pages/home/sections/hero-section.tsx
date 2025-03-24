@@ -93,26 +93,6 @@ const HeroSection: React.FC<HeroProps> = ({
           />
         </div>
       </div>
-
-      {/* Representative Banner */}
-      {t('representativeOf') && (
-        <div className="bg-gray-200 py-12">
-          <div className="container mx-auto px-4 max-w-7xl text-center">
-            <p className="text-gray-700">
-              <span className="font-medium">{t('representativeLabel')} </span>
-              <span className="text-blue-800 text-2xl font-semibold">
-                {/* {t('representativeOf')} */}
-                <Image className='inline-block' src={KissSoftLogo} alt="KissSoft Logo" width={100} height={100} />
-              </span>
-            </p>
-            {t.raw('countries') && (
-              <p className="text-gray-600 mt-2">
-                {(t.raw('countries') as string[]).join(' · ')}
-              </p>
-            )}
-          </div>
-        </div>
-      )}
     </div>
   );
 };

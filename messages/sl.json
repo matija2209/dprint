@@ -1,9 +1,9 @@
 {
   "HomePage": {
     "hero": {
-      "title": "Inženirska natančnost skozi programske rešitve",
-      "subtitle": "Strokovnjaki za razvoj programske opreme, inženiring in svetovanje na področju robotike, logike in sistemov",
-      "ctaText": "Kontaktirajte nas",
+      "title": "Vaše ideje, natisnjene do popolnosti.",
+      "subtitle": "Kakovosten tisk na vse materiale, od majic do keramike in lesa – z več kot 20 leti izkušenj.",
+      "ctaText": "Začnite ustvarjati",
       "representativeOf": "KISSsoft",
       "representativeLabel": "Uradni zastopniki",
       "countries": [
@@ -17,32 +17,32 @@
       ]
     },
     "gallery": {
-      "title": "Tehnična odličnost v akciji",
-      "description": "Raziščite naše inovativne programske rešitve in inženirsko strokovno znanje na področju preračunov strojnih elementov, modeliranja zobnikov in optimizacije sistemov."
+      "title": "Galerija izdelkov D Print",
+      "description": "Oglejte si primere našega dela in se prepričajte o kakovosti in raznolikosti naših tiskarskih storitev. Od unikatnih personaliziranih daril do profesionalnih promocijskih materialov – tukaj boste našli navdih za vaše naslednje naročilo."
     },
     "services": {
       "title": "Naše storitve",
       "description": "Našim strankam ponujamo vrsto storitev",
       "service1": {
         "kicker": "Storitve",
-        "title": "Razvoj programske opreme",
-        "subtitle": "Razvijamo specializirano programsko opremo za preračune strojnih elementov, prilagojeno vašim specifičnim potrebam. Naše rešitve omogočajo natančno modeliranje in analizo zobnikov ter zobniških sistemov."
+        "title": "Lasersko graviranje in 3D rezkanje",
+        "subtitle": "Specializirani za lasersko graviranje v les in 3D rezkanje za ustvarjanje unikatnih izdelkov. Ustvarjamo napise, darila, prototipe in dekorativne elemente s precizno tehnologijo."
       },
       "service2": {
         "kicker": "Storitve",
-        "title": "Inženiring",
-        "subtitle": "Ponujamo celovite inženirske storitve za optimizacijo ležajev in gredi v vaših mehanskih sistemih. Naša ekipa zagotavlja strokovno načrtovanje in preverjanje vseh ključnih komponent."
+        "title": "Tisk na tekstil in keramiko",
+        "subtitle": "Ponujamo personaliziran tisk na tekstilne izdelke in keramične ploščice. Specializirani za tisk na majice, športno opremo, kuhinjske obloge in dekorativne elemente z visoko kakovostjo in obstojnimi barvami."
       },
       "service3": {
         "kicker": "Storitve",
-        "title": "Svetovanje",
-        "subtitle": "Naši strokovnjaki vam svetujejo pri izbiri najboljših rešitev za celotne pogonske sklope. Z našim znanjem in izkušnjami vam pomagamo doseči optimalno zmogljivost, zanesljivost in življenjsko dobo vaših sistemov."
+        "title": "Velikoplošni tisk",
+        "subtitle": "Profesionalni tisk na velike formate za oglaševalske namene. Ustvarjamo visokokakovostne grafične tiske za različne promocijske materiale in oglaševalske površine."
       }
     },
     "about": {
       "title": "O Nas",
-      "paragraph1": "Bauhar d.o.o. je inženirsko podjetje s sedežem na Bledu, specializirano za razvoj programske opreme za preračun strojnih elementov. Nudimo inženirske storitve in svetovanje za zobnike, ležaje, gredi in celotne pogonske sklope v Sloveniji in na območju Balkana.",
-      "paragraph2": "Naša ekipa združuje strokovno znanje s praktičnimi izkušnjami za zagotavljanje natančnih in učinkovitih rešitev. Kot uradni zastopnik programske opreme KISSsoft® za šest balkanskih držav ponujamo celovito podporo pri implementaciji naprednih inženirskih orodij."
+      "paragraph1": "D Print je tiskarsko podjetje z več kot 20-letnimi izkušnjami v grafični industriji. Ponujamo široko paleto tiskarskih storitev, od klasičnega digitalnega in ofsetnega tiska do specializiranih storitev, kot so tisk na tekstil, keramiko, športno opremo in promocijske materiale.",
+      "paragraph2": "Naša prednost je v kombinaciji strokovnega znanja (dipl. inž. grafične tehnike) in praktičnih izkušenj, kar zagotavlja visoko kakovost in natančnost izdelave.  Poseben poudarek dajemo individualnemu pristopu k strankam in prilagajanju njihovim željam."
     },
     "contact": {
       "title": "Kontakt",
@@ -75,11 +75,11 @@
       "address2": "4260 Bled",
       "taxId": "ID za DDV: SI 20511230"
     },
+
     "about": {
-      "title": "O podjetju",
-      "description1": "Bauhar d.o.o. razvija programsko opremo za izračune strojnih elementov. Nudimo razvojne, inženirske in svetovalne storitve za zobnike, ležaje, gredi in celotne pogonske sisteme.",
-      "description2": "Podjetje je uradni zastopnik programske opreme KISSsoft® za Slovenijo, Hrvaško, Bosno in Hercegovino, Severno Makedonijo, Albanijo in Bolgarijo.",
-      "representative": "Zastopnik za:"
+      "title": "O podjetju D Print",
+      "description1": "D Print je tiskarsko podjetje z več kot 20-letnimi izkušnjami v grafični industriji. Ponujamo široko paleto tiskarskih storitev, od klasičnega digitalnega in ofsetnega tiska do specializiranih storitev, kot so tisk na tekstil, keramiko, športno opremo in promocijske materiale.",
+      "description2": "Naša prednost je v kombinaciji strokovnega znanja (dipl. inž. grafične tehnike) in praktičnih izkušenj, kar zagotavlja visoko kakovost in natančnost izdelave.  Poseben poudarek dajemo individualnemu pristopu k strankam in prilagajanju njihovim željam."
     },
     "contact": {
       "title": "Kontakt"
@@ -95,7 +95,7 @@
       "privacy": "Politika zasebnosti",
       "terms": "Pogoji uporabe"
     },
-    "copyright": "Bauhar d.o.o. Vse pravice pridržane."
+    "copyright": "Vse pravice pridržane."
   },
   "Navigation": {
     "home": "Domov",

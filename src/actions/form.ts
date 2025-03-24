@@ -2,7 +2,10 @@
 
 import { z } from "zod";
 import { sendContactEmailWithBrevo } from "@/lib/brevo";
-import { createContactEmailContent, createReplyToVisitorEmailContent } from "@/utils/prepare-email";
+import {
+  createContactEmailContent,
+  createReplyToVisitorEmailContent,
+} from "@/utils/prepare-email";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -19,7 +22,7 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 export async function submitContactForm(formData: FormData) {
-  'use server';
+  "use server";
   try {
     // 1. Validate the form data
     const validatedData = formSchema.parse(formData);
@@ -28,11 +31,7 @@ export async function submitContactForm(formData: FormData) {
     // 2. Prepare emails using the functions from prepare-email.ts
 
     // Prepare admin notification email
-    const adminEmail = await createContactEmailContent(
-      name,
-      email,
-      message,
-    );
+    const adminEmail = await createContactEmailContent(name, email, message);
 
     // Send email to admin
     await sendContactEmailWithBrevo({
@@ -44,36 +43,39 @@ export async function submitContactForm(formData: FormData) {
     });
 
     // Prepare auto-reply email to the visitor
-    const visitorEmail = await createReplyToVisitorEmailContent(
-      name,
-    );
+    const visitorEmail = await createReplyToVisitorEmailContent(name);
 
     // Send auto-reply to visitor
     await sendContactEmailWithBrevo({
-      from: "Bauhar.si",
+      from: "D-Print.si",
       textContent: visitorEmail.textContent,
       htmlContent: visitorEmail.htmlContent,
       to: email,
-      subject: "Thank you for contacting Bauhar.si",
+      subject: "Thank you for contacting D-Print.si",
     });
 
-    return { success: true, message: "Your message has been sent successfully!" };
+    return {
+      success: true,
+      message: "Your message has been sent successfully!",
+    };
   } catch (error) {
     console.error("Error submitting contact form:", error);
-    
+
     if (error instanceof z.ZodError) {
       // Return validation errors
-      return { 
-        success: false, 
+      return {
+        success: false,
         message: "Validation failed",
-        errors: error.errors.map(e => ({
-          path: e.path.join('.'),
-          message: e.message
-        }))
+        errors: error.errors.map((e) => ({
+          path: e.path.join("."),
+          message: e.message,
+        })),
       };
     }
-    
-    return { success: false, message: "Failed to send your message. Please try again later." };
+
+    return {
+      success: false,
+      message: "Failed to send your message. Please try again later.",
+    };
   }
 }
-

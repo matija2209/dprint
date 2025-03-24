@@ -6,7 +6,7 @@ import { Lock, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Politika zasebnosti",
-  description: "Preberite našo politiko zasebnosti in kako varujemo vaše osebne podatke na bauhar.si.",
+  description: "Preberite našo politiko zasebnosti in kako varujemo vaše osebne podatke na D-Print.si.",
 };
 
 export default function PrivacyPage() {
@@ -36,13 +36,13 @@ export default function PrivacyPage() {
                   <AccordionContent className="text-gray-700">
                     <p className="font-medium">Podatki o upravljavcu:</p>
                     <p>
-                       
-info@bauhar.si
-Bauhar d.o.o.
-Seliška cesta 6b
-4260 Bled
-SI 20511230
-KISSsoft AG
+
+                      info@D-Print.si
+                      D-Print d.o.o.
+                      Seliška cesta 6b
+                      4260 Bled
+                      SI 20511230
+                      KISSsoft AG
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -136,7 +136,7 @@ KISSsoft AG
         </Card>
 
         <div className="mt-8 text-center text-sm text-gray-50">
-          <p>© 2025 Bauhar d.o.o. Vse pravice pridržane.</p>
+          <p>© 2025 D-Print d.o.o. Vse pravice pridržane.</p>
         </div>
       </div>
     </main>

@@ -21,13 +21,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="sl">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <div dangerouslySetInnerHTML={{ 
-          __html: '<feedback-widget widgetid="67dacbdd74255d7247364606"></feedback-widget>' 
+        <div dangerouslySetInnerHTML={{
+          __html: '<feedback-widget widgetid="67dacbdd74255d7247364606"></feedback-widget>'
         }} />
         <Script type="module" src="https://widget.fiidbakk.com/main.js" />
         <GoogleAnalytics gaId="G-C2WY3ND8XW" />

@@ -1,11 +1,13 @@
 import AboutSection from '@/components/pages/home/sections/about-section';
 import HeroSection from '@/components/pages/home/sections/hero-section';
-import ServicesSection from '@/components/pages/home/sections/services-section';
+import ServicesSection from '@/components/pages/home/sections/specialties-section';
 
 import { Metadata } from 'next';
 import { generatePageMetadata } from '@/utils/metadata';
 import SchemaMarkup from '@/components/schema-markup';
 import GallerySection from '@/components/pages/home/sections/gallery-section';
+import ServiceSection from '@/components/pages/home/sections/service-section';
+import naseStoritve from '@/const/services';
 
 export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'de' }, { locale: 'sl' }];
@@ -37,6 +39,7 @@ export default function Home() {
     <div>
       <SchemaMarkup></SchemaMarkup>
       <HeroSection />
+      <ServiceSection title="Naše storitve" services={naseStoritve} />
       <ServicesSection />
       <GallerySection></GallerySection>
       <AboutSection />
