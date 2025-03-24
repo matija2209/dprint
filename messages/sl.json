@@ -1,0 +1,114 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Inženirska natančnost skozi programske rešitve",
+      "subtitle": "Strokovnjaki za razvoj programske opreme, inženiring in svetovanje na področju robotike, logike in sistemov",
+      "ctaText": "Kontaktirajte nas",
+      "representativeOf": "KISSsoft",
+      "representativeLabel": "Uradni zastopniki",
+      "countries": [
+        "Slovenija",
+        "Srbija",
+        "Hrvaška",
+        "Bosna in Hercegovina",
+        "Severna Makedonija",
+        "Albanija",
+        "Bolgarija"
+      ]
+    },
+    "gallery": {
+      "title": "Tehnična odličnost v akciji",
+      "description": "Raziščite naše inovativne programske rešitve in inženirsko strokovno znanje na področju preračunov strojnih elementov, modeliranja zobnikov in optimizacije sistemov."
+    },
+    "services": {
+      "title": "Naše storitve",
+      "description": "Našim strankam ponujamo vrsto storitev",
+      "service1": {
+        "kicker": "Storitve",
+        "title": "Razvoj programske opreme",
+        "subtitle": "Razvijamo specializirano programsko opremo za preračune strojnih elementov, prilagojeno vašim specifičnim potrebam. Naše rešitve omogočajo natančno modeliranje in analizo zobnikov ter zobniških sistemov."
+      },
+      "service2": {
+        "kicker": "Storitve",
+        "title": "Inženiring",
+        "subtitle": "Ponujamo celovite inženirske storitve za optimizacijo ležajev in gredi v vaših mehanskih sistemih. Naša ekipa zagotavlja strokovno načrtovanje in preverjanje vseh ključnih komponent."
+      },
+      "service3": {
+        "kicker": "Storitve",
+        "title": "Svetovanje",
+        "subtitle": "Naši strokovnjaki vam svetujejo pri izbiri najboljših rešitev za celotne pogonske sklope. Z našim znanjem in izkušnjami vam pomagamo doseči optimalno zmogljivost, zanesljivost in življenjsko dobo vaših sistemov."
+      }
+    },
+    "about": {
+      "title": "O Nas",
+      "paragraph1": "Bauhar d.o.o. je inženirsko podjetje s sedežem na Bledu, specializirano za razvoj programske opreme za preračun strojnih elementov. Nudimo inženirske storitve in svetovanje za zobnike, ležaje, gredi in celotne pogonske sklope v Sloveniji in na območju Balkana.",
+      "paragraph2": "Naša ekipa združuje strokovno znanje s praktičnimi izkušnjami za zagotavljanje natančnih in učinkovitih rešitev. Kot uradni zastopnik programske opreme KISSsoft® za šest balkanskih držav ponujamo celovito podporo pri implementaciji naprednih inženirskih orodij."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "phone": "Telefon",
+      "email": "E-pošta",
+      "address": "Naslov",
+      "form": {
+        "name": "Ime",
+        "email": "E-pošta",
+        "message": "Sporočilo",
+        "submit": "Pošlji",
+        "namePlaceholder": "Janez Novak",
+        "emailPlaceholder": "janez@primer.si",
+        "messagePlaceholder": "Vaše sporočilo tukaj...",
+        "sending": "Pošiljanje...",
+        "successMessage": "Vaše sporočilo je bilo uspešno poslano!",
+        "errorMessage": "Napaka pri pošiljanju vašega sporočila. Prosimo, poskusite znova.",
+        "validation": {
+          "nameRequired": "Ime mora vsebovati vsaj 2 znaka.",
+          "emailInvalid": "Prosimo, vnesite veljaven e-poštni naslov.",
+          "messageLength": "Sporočilo mora vsebovati vsaj 10 znakov."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "companyInfo": {
+      "name": "Bauhar d.o.o.",
+      "address1": "Seliška cesta 6b",
+      "address2": "4260 Bled",
+      "taxId": "ID za DDV: SI 20511230"
+    },
+    "about": {
+      "title": "O podjetju",
+      "description1": "Bauhar d.o.o. razvija programsko opremo za izračune strojnih elementov. Nudimo razvojne, inženirske in svetovalne storitve za zobnike, ležaje, gredi in celotne pogonske sisteme.",
+      "description2": "Podjetje je uradni zastopnik programske opreme KISSsoft® za Slovenijo, Hrvaško, Bosno in Hercegovino, Severno Makedonijo, Albanijo in Bolgarijo.",
+      "representative": "Zastopnik za:"
+    },
+    "contact": {
+      "title": "Kontakt"
+    },
+    "navigation": {
+      "title": "Navigacija",
+      "home": "Domov",
+      "services": "Storitve",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "title": "Pravno",
+      "privacy": "Politika zasebnosti",
+      "terms": "Pogoji uporabe"
+    },
+    "copyright": "Bauhar d.o.o. Vse pravice pridržane."
+  },
+  "Navigation": {
+    "home": "Domov",
+    "about": "O nas",
+    "services": "Storitve",
+    "contact": "Kontakt",
+    "language": "Jezik"
+  },
+  "CookieConsent": {
+    "title": "Soglasje za piškotke",
+    "shortDescription": "Uporabljamo piškotke za izboljšanje vaše izkušnje brskanja in analizo našega prometa.",
+    "description": "Ta spletna stran uporablja piškotke, da vam zagotovi najboljšo izkušnjo na naši spletni strani. Z nadaljnjo uporabo te strani soglašate z našo uporabo piškotkov v skladu z našo politiko zasebnosti.",
+    "accept": "Sprejmi piškotke",
+    "decline": "Zavrni"
+  }
+}

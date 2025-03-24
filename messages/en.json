@@ -1,0 +1,114 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Engineering precision through software solutions",
+      "subtitle": "Experts in software development, engineering, and consulting in robotics, logic, and systems",
+      "ctaText": "Contact us",
+      "representativeOf": "KISSsoft",
+      "representativeLabel": "Official Representative of",
+      "countries": [
+        "Slovenia",
+        "Serbia",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "North Macedonia",
+        "Albania",
+        "Bulgaria"
+      ]
+    },
+    "gallery": {
+      "title": "Engineering Excellence in Action",
+      "description": "Explore our innovative software solutions and engineering expertise in machine element calculations, gear modeling, and system optimization."
+    },
+    "services": {
+      "title": "Our services",
+      "description": "We offer a range of services to our clients",
+      "service1": {
+        "kicker": "Services",
+        "title": "Software Development",
+        "subtitle": "We develop specialized software for machine element calculations, tailored to your specific needs. Our solutions enable precise modeling and analysis of gears and gear systems."
+      },
+      "service2": {
+        "kicker": "Services",
+        "title": "Engineering",
+        "subtitle": "We offer comprehensive engineering services for optimizing bearings and shafts in your mechanical systems. Our team provides expert design and verification of all key components."
+      },
+      "service3": {
+        "kicker": "Services",
+        "title": "Consulting",
+        "subtitle": "Our experts advise you in selecting the best solutions for complete drive systems. With our knowledge and experience, we help you achieve optimal performance, reliability, and longevity of your systems."
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "paragraph1": "Bauhar d.o.o. is an engineering company based in Bled, specializing in software development for machine element calculations. We provide engineering services and consulting for gears, bearings, shafts, and complete drive systems in Slovenia and the Balkan region.",
+      "paragraph2": "Our team combines expertise with practical experience to provide precise and efficient solutions. As the official representative of KISSsoft® software for six Balkan countries, we offer comprehensive support in implementing advanced engineering tools."
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone",
+      "email": "info@bauhar.si",
+      "address": "Address",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit",
+        "namePlaceholder": "John Doe",
+        "emailPlaceholder": "john@example.com",
+        "messagePlaceholder": "Your message here...",
+        "sending": "Sending...",
+        "successMessage": "Your message has been sent successfully!",
+        "errorMessage": "Failed to send your message. Please try again.",
+        "validation": {
+          "nameRequired": "Name must be at least 2 characters.",
+          "emailInvalid": "Please enter a valid email address.",
+          "messageLength": "Message must be at least 10 characters."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "companyInfo": {
+      "name": "Bauhar d.o.o.",
+      "address1": "Seliška cesta 6b",
+      "address2": "4260 Bled",
+      "taxId": "ID za DDV: SI 20511230"
+    },
+    "about": {
+      "title": "About the company",
+      "description1": "Bauhar d.o.o. develops software for machine element calculations. We offer development, engineering, and consulting services for gears, bearings, shafts, and complete drive systems.",
+      "description2": "The company is the official representative for KISSsoft® software for Slovenia, Croatia, Bosnia and Herzegovina, North Macedonia, Albania, and Bulgaria.",
+      "representative": "Representative for:"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "copyright": "Bauhar d.o.o. All rights reserved."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "CookieConsent": {
+    "title": "Cookie Consent",
+    "shortDescription": "We use cookies to enhance your browsing experience and analyze our traffic.",
+    "description": "This website uses cookies to ensure you get the best experience on our website. By continuing to use this site, you consent to our use of cookies in accordance with our privacy policy.",
+    "accept": "Accept Cookies",
+    "decline": "Decline"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Ingenieurpräzision durch Softwarelösungen",
+      "subtitle": "Experten für Softwareentwicklung, Engineering und Beratung in den Bereichen Robotik, Logik und Systeme",
+      "ctaText": "Kontaktieren Sie uns",
+      "representativeOf": "KISSsoft",
+      "representativeLabel": "Offizieller Vertreter von",
+      "countries": [
+        "Slowenien",
+        "Serbien",
+        "Kroatien",
+        "Bosnien und Herzegowina",
+        "Nordmazedonien",
+        "Albanien",
+        "Bulgarien"
+      ]
+    },
+    "gallery": {
+      "title": "Technische Exzellenz in Aktion",
+      "description": "Entdecken Sie unsere innovativen Softwarelösungen und ingenieurtechnischen Kompetenzen in Maschinenelementberechnungen, Zahnradmodellierung und Systemoptimierung."
+    },
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "description": "Wir bieten unseren Kunden eine Reihe von Dienstleistungen an",
+      "service1": {
+        "kicker": "Leistungen",
+        "title": "Softwareentwicklung",
+        "subtitle": "Wir entwickeln spezialisierte Software für Maschinenelementberechnungen, zugeschnitten auf Ihre spezifischen Bedürfnisse. Unsere Lösungen ermöglichen präzise Modellierung und Analyse von Zahnrädern und Getrieben."
+      },
+      "service2": {
+        "kicker": "Leistungen",
+        "title": "Engineering",
+        "subtitle": "Wir bieten umfassende Ingenieurdienstleistungen zur Optimierung von Lagern und Wellen in Ihren mechanischen Systemen. Unser Team gewährleistet professionelle Konstruktion und Überprüfung aller Schlüsselkomponenten."
+      },
+      "service3": {
+        "kicker": "Leistungen",
+        "title": "Beratung",
+        "subtitle": "Unsere Experten beraten Sie bei der Auswahl der besten Lösungen für komplette Antriebssysteme. Mit unserem Wissen und unserer Erfahrung helfen wir Ihnen, optimale Leistung, Zuverlässigkeit und Lebensdauer Ihrer Systeme zu erreichen."
+      }
+    },
+    "about": {
+      "title": "Über uns",
+      "paragraph1": "Bauhar d.o.o. ist ein Ingenieurbüro mit Sitz in Bled, spezialisiert auf Softwareentwicklung für Maschinenelementberechnungen. Wir bieten Ingenieurdienstleistungen und Beratung für Zahnräder, Lager, Wellen und komplette Antriebssysteme in Slowenien und der Balkanregion.",
+      "paragraph2": "Unser Team verbindet Fachwissen mit praktischer Erfahrung, um präzise und effiziente Lösungen zu liefern. Als offizieller Vertreter der KISSsoft®-Software für sechs Balkanländer bieten wir umfassende Unterstützung bei der Implementierung fortschrittlicher Ingenieurswerkzeuge."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse",
+      "form": {
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht",
+        "submit": "Absenden",
+        "namePlaceholder": "Max Mustermann",
+        "emailPlaceholder": "max@beispiel.de",
+        "messagePlaceholder": "Ihre Nachricht hier...",
+        "sending": "Wird gesendet...",
+        "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
+        "errorMessage": "Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut.",
+        "validation": {
+          "nameRequired": "Name muss mindestens 2 Zeichen lang sein.",
+          "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+          "messageLength": "Nachricht muss mindestens 10 Zeichen lang sein."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "companyInfo": {
+      "name": "Bauhar d.o.o.",
+      "address1": "Seliška cesta 6b",
+      "address2": "4260 Bled",
+      "taxId": "ID für MwSt: SI 20511230"
+    },
+    "about": {
+      "title": "Über das Unternehmen",
+      "description1": "Bauhar d.o.o. entwickelt Software für Maschinenelementberechnungen. Wir bieten Entwicklungs-, Engineering- und Beratungsdienstleistungen für Zahnräder, Lager, Wellen und komplette Antriebssysteme.",
+      "description2": "Das Unternehmen ist der offizielle Vertreter der KISSsoft®-Software für Slowenien, Kroatien, Bosnien und Herzegowina, Nordmazedonien, Albanien und Bulgarien.",
+      "representative": "Vertreter für:"
+    },
+    "contact": {
+      "title": "Kontakt"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Startseite",
+      "services": "Dienstleistungen",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen"
+    },
+    "copyright": "Bauhar d.o.o. Alle Rechte vorbehalten."
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "CookieConsent": {
+    "title": "Cookie-Zustimmung",
+    "shortDescription": "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern und unseren Verkehr zu analysieren.",
+    "description": "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten. Durch die weitere Nutzung dieser Website stimmen Sie unserer Verwendung von Cookies gemäß unserer Datenschutzrichtlinie zu.",
+    "accept": "Cookies akzeptieren",
+    "decline": "Ablehnen"
+  }
+}
