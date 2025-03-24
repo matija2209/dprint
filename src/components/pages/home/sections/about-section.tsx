@@ -4,6 +4,7 @@ import GridLines from '@/components/visuals-patterns/grid-lines';
 import { ContactForm } from '@/components/contact-form';
 import ContainedSection from '@/components/layout/container-section';
 import SectionHeading from '@/components/layout/section-heading';
+import { FacebookPage } from '@/components/facebook-page';
 // import { ContactForm } from '@/components/contact-form';
 
 function AboutSection() {
@@ -12,11 +13,17 @@ function AboutSection() {
   return (
     <>
       <ContainedSection id='about' sectionClassName='bg-primary/70 text-white py-32 relative'>
-        <SectionHeading>
-          <SectionHeading.Title className='text-secondary-background'>{t('about.title')}</SectionHeading.Title>
-          <SectionHeading.Description className='text-secondary-background'>{t('about.paragraph1')}</SectionHeading.Description>
-          <SectionHeading.Description className='text-secondary-background'>{t('about.paragraph2')}</SectionHeading.Description>
-        </SectionHeading>
+        <div className='flex flex-col md:flex-row gap-4 items-center'>
+          <SectionHeading>
+            <SectionHeading.Title className='text-secondary-background'>{t('about.title')}</SectionHeading.Title>
+            <SectionHeading.Description className='text-secondary-background'>{t('about.paragraph1')}</SectionHeading.Description>
+            <SectionHeading.Description className='text-secondary-background'>{t('about.paragraph2')}</SectionHeading.Description>
+          </SectionHeading>
+          <div className="mt-8">
+            <FacebookPage />
+          </div>
+
+        </div>
         {/* Create the slanted edge */}
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-white transform -skew-y-2 origin-bottom-right"></div>
       </ContainedSection>
@@ -44,6 +51,7 @@ function AboutSection() {
                 </div>
                 <span>{process.env.NEXT_PUBLIC_COMPANY_NAME}<br />{process.env.NEXT_PUBLIC_STREET}<br />{process.env.NEXT_PUBLIC_ZIP} {process.env.NEXT_PUBLIC_CITY}<br />{process.env.NEXT_PUBLIC_COUNTRY}</span>
               </div>
+
             </div>
           </div>
           {/* Contact form column */}
